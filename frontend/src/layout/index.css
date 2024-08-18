@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app__container {
+  min-height: 100vh;
+}
+
+.app__logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.header__username {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.content__container {
+  padding: 24px 48px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-success {
+  background: #00b96b;
+  box-shadow: 0 2px 0 rgba(5, 213, 88, 0.12);
+}
+
+.btn-success:hover {
+  background: #20c77c !important;
+}

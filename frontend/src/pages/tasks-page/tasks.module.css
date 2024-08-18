@@ -1,0 +1,43 @@
+.columnsContainer {
+  overflow-x: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 230px;
+  padding: 10px;
+  background-color: #91caff;
+  border-radius: 6px;
+}
+
+.columnTitle {
+  font-size: 20px;
+  margin: 0;
+}
+
+.columnItem {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff1b8;
+}
+
+.columnItemTitle {
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+}
+
+.columnItemText {
+  font-size: 16px;
+  margin: 0;
+}
+
+.columnItemButtonWrapper {
+  margin-top: 10px;
+}
